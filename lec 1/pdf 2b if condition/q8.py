@@ -1,0 +1,6 @@
+a=int(input(" 1 angle"))
+b=int(input(" 2 angle"))
+c=int(input(" 3 angle"))
+d= int(a+b+c)
+if(d==180): print("treiangle exists")
+else: print("triangle doesn't exists")
