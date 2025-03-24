@@ -1,7 +1,7 @@
-lst=[]
-n=int(input("enter no of entries required: "))
-for i in range(1,n+1):
-    data=int(input("enter temp in farenhite: "))
-    lst.append(data)
-print(lst)    
-#f=(9/5)c+32
+fahrenheit = [32, 68, 104, 212, 50]  # Example temperatures
+celsius = []
+
+for f in fahrenheit:
+    celsius.append((f - 32) * 5 / 9)
+
+print(celsius)
